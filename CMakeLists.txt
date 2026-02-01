@@ -11,6 +11,8 @@ set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreadedDLL")
 # Add your source files
 add_executable(Cyphon
     src/main.cpp
+    src/Global/GameScreen.cpp
+    src/Screens/MainMenu.cpp
 )
 
 # Find raylib (assumes installed or provided by vcpkg)
