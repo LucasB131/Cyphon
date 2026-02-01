@@ -1,13 +1,14 @@
 #include "raylib.h"
 
 int main() {
-    InitWindow(800, 450, "My New Game");
+    InitWindow(1920, 1200, "Cyphon");
     SetTargetFPS(60);
 
     while (!WindowShouldClose()) {
         BeginDrawing();
-        ClearBackground(RAYWHITE);
-        DrawText("Hello, Raylib!", 190, 200, 20, BLACK);
+
+        ClearBackground(BLACK);
+
         EndDrawing();
     }
 
